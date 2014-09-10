@@ -1,0 +1,387 @@
+.footerSlider {
+    width: 95%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.footerSlider .slider {
+    width: 100%;
+    height: 100%;
+}
+
+.footerSlider .slider .item {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 16.66%;
+    background: #fff;
+    height: 100px;
+}
+.footerSlider .slider #item1 {
+    background: url(../img/partner/img1.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.footerSlider .slider #item2 {
+    background: url(../img/partner/babor.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.footerSlider .slider #item3 {
+    background: url(../img/partner/img3.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.footerSlider .slider #item4 {
+    background: url(../img/partner/img4.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.footerSlider .slider #item5 {
+    background: url(../img/partner/img5.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.footerSlider .slider #item6 {
+    background: url(../img/partner/img6.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.footerSlider .slider #item7 {
+    background: url(../img/partner/img1.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.footerSlider .slider #item8 {
+    background: url(../img/partner/babor.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.footerSlider .slider #item9 {
+    background: url(../img/partner/img3.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.footerSlider .slider #item10 {
+    background: url(../img/partner/img4.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.footerSlider .slider #item11 {
+    background: url(../img/partner/img5.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.footerSlider .slider #item12 {
+    background: url(../img/partner/img6.png) no-repeat 50% 0;
+    background-position: center center;
+    background-size: auto auto;
+}
+.nextButtonF{
+    position: absolute;
+    left: 0px;
+    top:0;
+    width: 24px;
+    height: 100%;
+    background: url(../img/arrow_left.png) no-repeat 100% 0;
+    background-position: center center;
+    z-index: 2;
+}
+.prevButtonF{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 24px;
+    height: 100%;
+    background: url(../img/arrow_right.png) no-repeat 100% 0;
+    background-position: center center;
+    z-index: 2;
+}
+.sliderSide{
+    position: relative;
+    padding-bottom: 20px;
+}
+/******Foto slider*******/
+.fotoSlider {
+    margin-top: 20px;
+    width: 100%;
+    height: 225px;
+}
+.fotoSlider .slider {
+    width: 100%;
+    height: 100%;
+}
+
+.fotoSlider .slider .item {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 2px 0 0;
+    height: 182px;
+    background: #fff;
+    margin: 0 0 0 0;
+    overflow: visible;
+	text-align: center;
+}
+.foto1,.foto2{
+    height: 100%;
+	width: 48%;
+    float: left;
+	display: inline-block;
+}
+.foto1 img,
+.foto2 img{
+    height: 100%;
+	max-width: 100%
+}
+.nav{
+    position: absolute;
+    bottom: -5px;
+    height: 30px;
+    width: 95%;
+}
+.iosSliderButtons {
+    position: absolute;
+    bottom: -3px;
+    width: calc(50% + 25px);
+    height: 15px;
+    margin:0 auto;
+}
+
+.iosSliderButtons .button {
+    float: right;
+    width: 5px;
+    height: 5px;
+    margin: 0 10px 0 0;
+    background-image: url("../img/bull.png");
+}
+
+.iosSliderButtons .selected {
+    background-image: url("../img/selected.png");
+}
+.prevButton {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 24px;
+    height: 100%;
+    background: url(../img/arr_left.png) no-repeat 0 0;
+    background-position: center center;
+    z-index: 2;
+}
+
+.nextButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 24px;
+    height: 100%;
+    background: url(../img/arr_right.png) no-repeat 100% 0;
+    background-position: center center;
+    z-index: 2;
+}
+/******Foto slider*******/
+/********Spet slider*********/
+
+/********Spet slider*********/
+/**baner*/
+
+.banner-slid .banner-slider1{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 1160px;
+	height: 335px;
+	background: #ffffff;
+	overflow: hidden; 
+}
+.banner-slid .slides-style{
+	cursor: move;  overflow: hidden;
+}
+.banner-slid .jssort11 .jssort11 .jssort11
+{
+	overflow-y: scroll!important;
+
+}
+
+.banner-slid .jssort11 .i, .jssort11 .pav:hover .i
+{
+    position: absolute;
+    top:3px;
+    left:3px;
+    WIDTH: 60px;
+    HEIGHT: 30px;
+    border: white 1px dashed;
+}
+.banner-slid .jssort11 img{
+	margin: 5px;
+	height: calc(100% - 10px);
+}
+.banner-slid * html .jssort11 .i
+{
+    WIDTH /**/: 62px;
+    HEIGHT /**/: 32px;
+}
+.banner-slid .jssort11 .pav .i
+{
+    border: white 1px solid;
+}
+.banner-slid .jssort11 .t, .jssort11 .pav:hover .t
+{
+	position: absolute;
+	top:25px;
+	left: 90px;
+    color:#6d6f79;
+    font-size:16px;
+	text-transform: uppercase;
+}
+.banner-slid .jssort11 .pav .t, .jssort11 .phv .t, .jssort11 .p:hover .t
+{
+    color:#000000;
+}
+
+.banner-slid .jssort11 .p
+{
+	border: 1px solid #c7c7c8;
+    background:#eeeeee;
+}
+.banner-slid .jssort11 .pav, .jssort11 .pdn
+{
+    background:#ffffff;
+
+	border: 1px solid #f0f0f0;
+
+}
+.banner-slid .jssort11 .p:hover, .jssort11 .phv, .jssort11 .pav:hover
+{
+    background:#ffffff;
+	border: 1px solid #f0f0f0;
+}
+.banner-slid #slider1_container{
+	border: 1px solid #eeeeee;
+}
+.banner-slid .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	overflow:hidden;
+}
+.banner-slid .jssora05l{
+	width: 40px; height: 40px; top: 290px; left: 735px;
+	background-image: url("../img/slider/arr_baner_left.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.banner-slid .jssora05l:hover{
+	background-image: url("../img/slider/arr_baner_left_h.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.banner-slid .jssora05r{
+	width: 40px; height: 40px; top: 290px; left: 760px;
+	background-image: url("../img/slider/arr_baner_right.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.banner-slid .jssora05r:hover{
+	background-image: url("../img/slider/arr_baner_right_h.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.banner-slid .text1{
+	padding: 5px 10px;
+	position: absolute;
+	top:90px;
+	left:15px;
+	background-color: #656771;
+	font-size: 36px;
+	font-weight: bold;
+	color:#ffffff;
+	text-transform: uppercase;
+}
+.banner-slid .text2{
+	padding: 5px 10px;
+	position: absolute;
+	top:150px;
+	left:15px;
+	font-size: 18px;
+	color:#000000;
+	text-transform: uppercase;
+}
+/**baner*/
+
+.banner-slid .img-slider-banner{
+	width: 800px;
+}
+/* jssor slider bullet navigator skin 05 css */
+/*
+.jssorb05 div           (normal)
+.jssorb05 div:hover     (normal mouseover)
+.jssorb05 .av           (active)
+.jssorb05 .av:hover     (active mouseover)
+.jssorb05 .dn           (mousedown)
+*/
+.slider-side-spet .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+	overflow: hidden;
+	cursor: pointer;
+	width: 5px;
+	height: 5px;
+	margin: 0 10px 0 0;
+}
+
+.slider-side-spet .jssorb05 div {
+	background-image: url("../img/bull.png");
+}
+
+.slider-side-spet .jssorb05 div:hover, .jssorb05 .av:hover {
+	background-image: url("../img/selected.png");
+}
+
+.slider-side-spet .jssorb05 .av {
+	background-image: url("../img/selected.png");
+}
+
+.slider-side-spet .jssorb05 .dn, .jssorb05 .dn:hover {
+	background-image: url("../img/bull.png");
+}
+/* jssor slider arrow navigator skin 12 css */
+/*
+.jssora12l              (normal)
+.jssora12r              (normal)
+.jssora12l:hover        (normal mouseover)
+.jssora12r:hover        (normal mouseover)
+.jssora12ldn            (mousedown)
+.jssora12rdn            (mousedown)
+*/
+.slider-side-spet .jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn {
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	overflow: hidden;
+}
+
+.slider-side-spet .jssora12l {
+	background: url(../img/arr_left.png) no-repeat 0 0;
+}
+
+.slider-side-spet .jssora12r {
+	background: url(../img/arr_right.png) no-repeat 100% 0;
+}
+
+.slider-side-spet .jssora12l:hover {
+	background: url(../img/arr_left.png) no-repeat 0 0;
+}
+
+.slider-side-spet .jssora12r:hover {
+	background: url(../img/arr_right.png) no-repeat 100% 0;
+}
+
+.slider-side-spet .jssora12ldn {
+	background: url(../img/arr_left.png) no-repeat 0 0;
+}
+
+.slider-side-spet .jssora12rdn {
+	background: url(../img/arr_right.png) no-repeat 100% 0;
+}
