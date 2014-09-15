@@ -602,58 +602,27 @@ p.data span{
     background-size: auto 100%;
     height: 115px;
 }
-
-.extern .links .link1{
-    background-image: url("../img/links/1.png");
+.extern .links .link {
+    background-image: url("../img/links/links.png");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 10px 20px;
     height: 115px;
 }
-.extern .links .link1:hover{
-    background-image: url("../img/links/1h.png");
-}
-.extern .links .link1{
-    background-image: url("../img/links/1.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 115px;
-}
-.extern .links .link2:hover{
-    background-image: url("../img/links/2h.png");
+.extern .links .link:hover{
+    background-image: url("../img/links/link-spiner.png");
 }
 .extern .links .link2{
-    background-image: url("../img/links/2.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 115px;
+    background-position: -155px 20px;
 }
 
 .extern .links .link3{
-    background-image: url("../img/links/3.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 115px;
-}
-.extern .links .link3:hover{
-    background-image: url("../img/links/3h.png");
+    background-position: -305px 20px;
 }
 .extern .links .link4{
-    background-image: url("../img/links/4.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 115px;
-}
-.extern .links .link4:hover{
-    background-image: url("../img/links/4h.png");
+    background-position: -460px 20px;
 }
 .extern .links .link5{
-    background-image: url("../img/links/5.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 115px;
-}
-.extern .links .link5:hover{
-    background-image: url("../img/links/5h.png");
+    background-position: -605px 20px;
 }
 ul .menu{
     width: 100%;
@@ -1595,7 +1564,7 @@ nav.fixed{
     width:100%;
     z-index: 20;
     clip: auto !important;
-     background: #c23535; /* Old browsers */
+    background: #c23535; /* Old browsers */
     background: -moz-linear-gradient(top,  #c23535 1%, #8c0707 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#c23535), color-stop(100%,#8c0707)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top,  #c23535 1%,#8c0707 100%); /* Chrome10+,Safari5.1+ */
@@ -1615,6 +1584,70 @@ nav.fixed .menu{
 }
 nav.default{
     position: inherit;
+}
+.menu li .submenu.big{
+    width: 97.7%;
+    left: 15px;
+    top:37px;
+}
+.submenu.big .submenu-header img{
+    margin-left: 13%;
+    margin-top: 6px;
+}
+.submenu.big .submenu-body{
+    background: none repeat scroll 0 0 #f4f4f4;
+      box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.menu li .submenu.big .submenu-body ul{
+    box-shadow: none;
+    margin: 0;
+}
+.submenu.big .submenu-body h1{
+    color: #242424;
+
+}
+.block-in-submenu{
+    margin-top: 25px;
+    padding: 20px 15px;
+    background-color: #FFFFFF;
+    border:1px solid #eaeaea;
+    margin-bottom: 20px;
+}
+.block-in-submenu p{
+    margin: 0;
+    font-size: 14px;
+    color: #3b3d47;
+    text-transform: uppercase;
+    text-align: center;
+}
+.block-in-submenu img{
+    width: 100%;
+    border:1px solid #eaeaea;
+    margin-top: 10px;
+}
+.menu li .submenu.big .submenu-body ul li.dropdown ul.collapse{
+    display: none;
+}
+.menu li .submenu.big .submenu-body ul li.dropdown ul li{
+    border: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #5f616c;
+}
+.menu li .submenu.big .submenu-body ul li.dropdown ul li:before{
+    content: "-  ";
+}
+.menu li .submenu.big .submenu-body ul li.dropdown ul li a{
+    color: #5f616c;
+}
+.menu li .submenu.big .submenu-body ul li.dropdown ul li a:hover{
+    text-decoration: underline;
+}
+.menu li .submenu.big .submenu-body ul li.dropdown ul li a:before{
+    content: "";
+}
+.menu li .submenu.big .submenu-body ul li.dropdown ul.collapse.in{
+    display: block;
 }
 @media screen and (max-width: 1200px) {
     header .call .number h2 span {
@@ -1753,20 +1786,24 @@ nav.default{
     .extern .name h1 {
         font-size: 13px;
     }
-    .extern .links .link1{
-        background-size: 100% auto;
+    .extern .links .link {
+        background: url("../img/links/links.png");
+        background-size: 550px auto;
+        background-repeat: no-repeat;
+        background-position: 0px 30px;
+        height: 115px;
     }
     .extern .links .link3{
-        background-size: 100% auto;
+        background-position: -230px 30px;
     }
     .extern .links .link2{
-        background-size: 100% auto;
+        background-position: -120px 30px;
     }
     .extern .links .link4{
-        background-size: 100% auto;
+        background-position: -335px 30px;
     }
     .extern .links .link5{
-        background-size: 100% auto;
+        background-position: -450px 30px;
     }
     .certificat h1{
         font-size: 16px;
