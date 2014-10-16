@@ -2108,8 +2108,18 @@ body:before {
 .slick-slide{
     margin: 4px;
     width: 140px !important;
+    height: 165px;
+    padding-bottom: 25px;
+    background-image: url("../img/box-shadow.png");
+    background-position: 23px 130px;
+    background-repeat: no-repeat;
 }
-
+.slick-slide.two{
+    background-position: -93px 133px;
+}
+.slick-slide.tree, .slick-slide.slick-center {
+    background-position: -225px 140px;
+}
 .slick-slide a{
     display: block;
 }
@@ -2128,11 +2138,8 @@ body:before {
 }
 .slider-side-service{
     background-color: #70727b;
-    padding: 10px 50px 35px;
+    padding: 10px 50px 10px;
     margin-bottom: 20px;
-    background-image: url("../img/box-shadow.png");
-    background-position: center 155px;
-    background-repeat: no-repeat;
 }
 .slick-slider{
     margin-bottom: 0;
