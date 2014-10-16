@@ -2107,7 +2107,9 @@ body:before {
 }
 .slick-slide{
     margin: 4px;
+    width: 140px !important;
 }
+
 .slick-slide a{
     display: block;
 }
@@ -2126,7 +2128,7 @@ body:before {
 }
 .slider-side-service{
     background-color: #70727b;
-    padding: 10px 133px 35px;
+    padding: 10px 50px 35px;
     margin-bottom: 20px;
     background-image: url("../img/box-shadow.png");
     background-position: center 155px;
