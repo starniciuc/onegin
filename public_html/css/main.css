@@ -21,16 +21,17 @@ h1{
     color: #000000;
     font-size: 24px;
     margin-top: 15px;
+	text-transform: uppercase;
 }
 h2{
     color: #000000;
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 15px;
 	font-weight: bold;
 }
 h3{
     color: #000000;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 15px;
 	font-weight: bold;
 }
@@ -874,7 +875,7 @@ ul .menu{
 }
 .left-content{
     width: 270px;
-    height: 340px;
+    height: 370px;
     float: left;
     margin: 0 20px 20px 0;
 }
