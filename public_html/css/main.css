@@ -78,11 +78,14 @@ background: none !important;
 }
 #ya-site-form0 .ya-site-form__form * {
     font-size: 12px !important;
+	padding: 0;
+	position: relative;
 }
 #ya-site-form0 .ya-site-form__wrap {
     border-collapse: collapse !important;
     table-layout: fixed !important;
     width: 100% !important;
+	border:0;
 }
 #ya-site-form0 .ya-site-form__search-wrap {
     border-collapse: collapse !important;
