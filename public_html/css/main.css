@@ -101,6 +101,7 @@ background: none !important;
 }
 #ya-site-form0 .ya-site-form__search-input {
     padding: 0 !important;
+	border: 0;
 }
 #ya-site-form0 .ya-site-form__search-input-layout, #ya-site-form0 .ya-site-form__search-input-layout-l {
     width: 100% !important;
