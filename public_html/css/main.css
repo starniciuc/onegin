@@ -124,6 +124,7 @@ background: none !important;
     color: #000000 !important;
     font-weight: normal !important;
     font-style: normal !important;
+    padding-left: 10px !important;
 }
 #ya-site-form0 .ya-site-form__input-text {
     background-color: #fff !important;
@@ -139,6 +140,9 @@ background: none !important;
     position: relative !important;
 	background-color: #fff !important;
 	width: 100% !important;
+}
+html body #ya-site-form0 .ya-site-suggest-elem:link, html body #ya-site-form0 .ya-site-suggest-elem-link{
+    padding-left: 10px !important;
 }
 .b-body-items{
 	text-align: left !important;
@@ -189,6 +193,9 @@ background: none !important;
 }
 #ya-site-form0 .ya-site-form__gap-i {
     width: 9em !important;
+}
+table.b-head b-head_type_search-simple tr:first-child td:first-child{
+    padding-bottom: 20px !important;
 }
 .inline-block { display: inline-block !important; }
 input[type="radio"]{
