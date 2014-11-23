@@ -1786,6 +1786,13 @@ nav.default{
 .menu li .submenu.big .submenu-body ul li.dropdown ul.collapse.in{
     display: block;
 }
+ul.menu {
+    margin: 0;
+    padding: 0;
+}
+.navbar-toggle .icon-bar{
+    background-color: #FFFFFF;
+}
 @media screen and (max-width: 1200px) {
     header .call .number h2 span {
         padding-left: 40px;
@@ -1796,7 +1803,12 @@ nav.default{
         padding-left: 0;
         padding-right: 0;
     }
-
+     header .call .number h2 {
+        font-size: 18px;
+        height: 40px;
+        line-height: 50px;
+    }
+    
     .fotoSlider {
         margin-top: 40px!important;
         height: 190px !important;
@@ -2046,16 +2058,62 @@ nav.default{
     .menu li .submenu{
         display: none !important;
     }
-    nav.fixed{
-        position: inherit !important;
-        clip: rect(0 0 0 0) !important;
+    .menu > li{
+        background: none;
+    }
+    .home-button-mobile{
+        display: block;
+        height: 50px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .navbar.default{
+        position: fixed;
+    }
+    body{
+        padding-top: 50px;
+    }
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%;
+        margin: 0;
+        box-shadow: 0;
+        border:0;
+    } 
+    .home-button-mobile img{
+        height: 90%;
     }
     .about .slider-side{
         display: none;
     }
-
+    .wrapper{
+        background-image: none;
+    }
+    .list-query table td:first-child{
+        white-space: normal;
+    }
+    .panel-price table tr td{
+        font-size: 12px;
+    }
+    .panel-price table tr td:last-child{
+        white-space: nowrap;
+    }
+    .panel-price .clearPadding{
+        padding: 0;
+    }
+    img{
+        max-width: 100%;
+    }
+    footer .maker{
+        padding-right: 15px;
+    }
 }
-
+.content ul li{
+    position: static;
+}
 .nav-toggle {
     position: fixed;
     -webkit-font-smoothing: antialiased;

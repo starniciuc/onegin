@@ -9,7 +9,6 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/responsive-nav.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
 
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -55,11 +54,25 @@
                 </div>
 
             </header>
-            <nav id="menu" class="nav-collapse default">
+            
+            <nav  id="menu" class="navbar nav-collapse  default" role="navigation">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12 menu-side">
-                            <ul class="menu clearPaddingLeft">
+                        <div class="col-sm-12 menu-side clearPadding">
+                            <div class="navbar-header">
+                                <a href="index.html" class="visible-xs home-button-mobile pull-left">
+                                    <img src="img/logo.png" alt="onegyn">
+                                </a>
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+
+                            </div>
+                            <div class="navbar-collapse collapse clearPadding">
+                                <ul class="menu clearPaddingLeft">
                                 <li><a href="#"><img src="img/home_menu.png" alt="Home"/></a></li>
                                 <li>
                                     <a href="#">Услуги и процедуры</a>
@@ -170,11 +183,12 @@
                                 <li><a href="#">О центре</a></li>
                                 <li><a href="#">Контакты</a></li>
                             </ul>
+
+                            </div><!--/.navbar-collapse -->
                         </div>
                     </div>
                 </div>
-            </nav>
-
+            </nav>  
             <!--index-->
             <div class="container ">
                 <div class="row margin">
@@ -589,7 +603,6 @@
         <script type="text/javascript" src="js/jssor.core.js"></script>
         <script type="text/javascript" src="js/jssor.utils.js"></script>
         <script type="text/javascript" src="js/jssor.slider.js"></script>
-        <script type="text/javascript" src="js/responsive-nav.js"></script>
 
         <script src="js/main.js"></script>
         <script>

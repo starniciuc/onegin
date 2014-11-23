@@ -10,14 +10,13 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/responsive-nav.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
 
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-		<!-- Bullet Navigator Skin Begin -->
+        <!-- Bullet Navigator Skin Begin -->
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -54,26 +53,124 @@
                 </div>
 
             </header>
-            <nav id="menu" class="nav-collapse default">
+            <nav  id="menu" class="navbar nav-collapse  default" role="navigation">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12 menu-side">
-                            <ul class="menu clearPaddingLeft">
+                        <div class="col-sm-12 menu-side clearPadding">
+                            <div class="navbar-header">
+                                <a href="index.html" class="visible-xs home-button-mobile pull-left">
+                                    <img src="img/logo.png" alt="onegyn">
+                                </a>
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+
+                            </div>
+                            <div class="navbar-collapse collapse clearPadding">
+                                <ul class="menu clearPaddingLeft">
                                 <li><a href="#"><img src="img/home_menu.png" alt="Home"/></a></li>
                                 <li>
                                     <a href="#">Услуги и процедуры</a>
-                                    <div class="submenu">
+                                    <div class="submenu big">
                                         <div class="submenu-header">
                                             <img src="img/submenu-arrow.png">
                                         </div>
-                                        <div class="submenu-body">
-                                            <ul>
-                                                <li><a href="#"> Аппаратная косметология</a></li>
-                                                <li><a href="#"> Инъекционная косметология</a></li>
-                                                <li><a href="#"> Уход за кожей</a></li>
-                                                <li><a href="#"> Парикмахерские услуги</a></li>
-                                                <li><a href="#"> Маникюр педикюр</a></li>
-                                            </ul>
+                                        <div class="row">
+                                            <div class="submenu-body clearfix">
+
+                                                <div class="col-sm-3">
+                                                    <div class="title-row">
+                                                        <div class="col-sm-12 clearPadding">
+                                                            <h1>НАШИ УСЛУГИ</h1>
+                                                            <fieldset class="title">
+                                                                <legend align="center"></legend>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="dropdown">
+                                                            <a href="#" data-toggle='collapse' data-target="#cosmetologia"> Косметология</a>
+                                                            <ul class="collapse" id="cosmetologia">
+                                                                <li><a href='#'>Биоармирование</a></li>
+                                                                <li><a href='#'>Биоревитализация</a></li>
+                                                                <li><a href='#'>Биорепарация</a></li>
+                                                                <li><a href='#'>Плазмотерапия</a></li>
+                                                                <li><a href='#'>Мезонити</a></li>
+                                                                <li><a href='#'>Мезотерапия</a></li>
+                                                                <li><a href='#'>Мезодиссолюция</a></li>
+                                                                <li><a href='#'>Ботулинотерапия</a></li>
+                                                                <li><a href='#'>Лечение гипергидроза</a></li>
+                                                                <li><a href='#'>Контурная пластика</a></li>
+                                                                <li><a href='#'>Микротоки</a></li>
+                                                                <li><a href='#'>Микродермабразия</a></li>
+                                                                <li><a href='#'>Миолифтинг, миостимуляция</a></li>
+                                                                <li><a href='#'>Электролиполиз</a></li>
+                                                                <li><a href='#'>Хиромассаж</a></li>
+                                                                <li><a href='#'>Чистки</a></li>
+                                                                <li><a href='#'>Удаление новообразований</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"> Диагностика кожи на аппарате "Антера 3D" </a></li>
+                                                        <li><a href="#"> Ринопластика (коррекция носа инъекционная)</a></li>
+                                                        <li><a href="#"> Ботокс, диспорт, ксеомин</a></li>
+                                                        <li><a href="#"> Инъекционная подтяжка скул</a></li>
+                                                        <li><a href="#"> Инъекционная подтяжка век</a></li>
+                                                        <li><a href="#"> Инъекционная подтяжка лица</a></li>
+                                                        <li><a href="#"> Подтяжка лица (аппаратный смас - лифтинг</a></li>
+
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <ul>
+                                                        <li><a href="#"> Маникюр и педикюр</a></li>
+                                                        <li><a href="#"> Обучение</a></li>
+                                                        <li><a href="#"> Подарочные сертификаты</a></li>
+                                                        <li><a href="#"> Контурная пластика "Реплери" </a></li>
+                                                    </ul>
+                                                    <div class="title-row">
+                                                        <div class="col-sm-12 clearPadding">
+                                                            <h1>ОТ ЧЕГО ЛЕЧИМ</h1>
+                                                            <fieldset class="title">
+                                                                <legend align="center"></legend>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                    <ul>
+                                                        <li><a href="#"> Коррекция носа</a></li>
+                                                        <li><a href="#"> Тонкие губы</a></li>
+                                                        <li><a href="#"> Брыли, нечеткий оавл лица</a></li>
+                                                        <li><a href="#"> Слабый подбородок</a></li>
+                                                        <li><a href="#"> Темные круги под глазами</a></li>
+                                                        <li><a href="#"> Излишняя потливость</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <ul>
+                                                        <li><a href="#"> Целлюлт и лишний вес</a></li>
+                                                        <li><a href="#"> Старение кожи, морщины </a></li>
+                                                        <li><a href="#"> Акне (угревая болезнь)</a></li>
+                                                        <li><a href="#"> Бородавки, папилломы</a></li>
+                                                        <li><a href="#"> Вросший ноготь</a></li>
+                                                        <li><a href="#"> Грибок ногтей</a></li>
+                                                        <li><a href="#"> Выпадение волос</a></li>
+                                                        <li><a href="#"> Рубцы</a></li>
+                                                        <li><a href="#"> Старение рук</a></li>
+                                                        <li><a href="#"> Излишняя пигментация</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="block-in-submenu">
+                                                        <p>Визувлизация эффектов контурной пластики и Ботулинотерапии</p>
+                                                        <img src="img/submenu.png" alt='submenu'>                                                        
+                                                    </div>
+                                                    <div class="button">
+                                                        <a href="">Заказать услугу</a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -84,10 +181,12 @@
                                 <li><a href="#">О центре</a></li>
                                 <li><a href="#">Контакты</a></li>
                             </ul>
+
+                            </div><!--/.navbar-collapse -->
                         </div>
                     </div>
                 </div>
-            </nav>
+            </nav> 
             <!--index-->
             <div class="container ">
                 <div class="row">
@@ -95,237 +194,237 @@
                         <p class="l"><a href="index.html">Главная</a> Список услуг</p>
                     </div>
                 </div>
-				<div class="row">
-					<div class="col-sm-12 link-tabs">
-						<h3>Передовые процедуры</h3>
-						<ul>
-							<li><a href="#"><span>Дабло</span></a></li>
-							<li><a href="#"><span>ЗD - диагностика  кожи на аппарате Антера</span></a></li>
-							<li><a href="#"><span>Интимная контурная пластика</span></a></li>
-							<li><a href="#"><span>Коррекция носа без операций</span></a></li>
-							<li><a href="#"><span>Блефаропластика без разрезов</span></a></li>
-							<li><a href="#"><span>Кератиновый лифтинг ресниц «ЮмиЛашес»</span></a></li>
-							<li><a href="#"><span>Четкий контур</span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="row margin">
-					<div id="tabServices">
-						<ul class="nav nav-tabs" id="myTab">
-							<li class="active">
-								<a href="#appointment">Инъекционная косметология</a>
-							</li>
-							<li>
-								<a href="#feedback">Оставить отзыв о специалисте</a>
-							</li>
-							<li>
-								<a href="#tab3">Уход за кожей</a>
-							</li>
-							<li>
-								<a href="#tab4">Парикмахерские услуги</a>
-							</li>
-							<li>
-								<a href="#tab5">Маникюр педикюр</a>
-							</li>
-						</ul>
-						<div class="tab-content">
-							<div class="tab-pane active" id="appointment">
-								<div class="panel-group">
-									<div class="panel-service">
-										<div class="panel-heading">
-											<h4 class="panel-title">
-												<a href="#">
-													Излишняя пигментация
-												</a>
-											</h4>
-										</div>
-										<div id="collapseOne" class="panel-collapse collapse in">
-											<div class="panel-body clearPadding">
-												<div class="col-sm-4">
-													<ul>
-														<li><a href="#">Лечение излишней пигментации</a></li>
-														<li><a href="#">Химический пилинг</a></li>
-														<li><a href="#">Мезотерапия</a></li>
-														<li><a href="#">Мезопил</a></li>
-														<li><a href="#">Дермабразия</a></li>
-													</ul>
-												</div>
-												<div class="col-sm-4">
-													<ul>
-														<li><a href="#">Лечение излишней пигментации</a></li>
-														<li><a href="#">Химический пилинг</a></li>
-														<li><a href="#">Мезотерапия</a></li>
-														<li><a href="#">Мезопил</a></li>
-														<li><a href="#">Дермабразия</a></li>
-													</ul>
-												</div>
-												<div class="col-sm-4">
-													<ul>
-														<li><a href="#">Лечение излишней пигментации</a></li>
-														<li><a href="#">Химический пилинг</a></li>
-														<li><a href="#">Мезотерапия</a></li>
-														<li><a href="#">Мезопил</a></li>
-														<li><a href="#">Дермабразия</a></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
+                <div class="row">
+                    <div class="col-sm-12 link-tabs">
+                        <h3>Передовые процедуры</h3>
+                        <ul>
+                            <li><a href="#"><span>Дабло</span></a></li>
+                            <li><a href="#"><span>ЗD - диагностика  кожи на аппарате Антера</span></a></li>
+                            <li><a href="#"><span>Интимная контурная пластика</span></a></li>
+                            <li><a href="#"><span>Коррекция носа без операций</span></a></li>
+                            <li><a href="#"><span>Блефаропластика без разрезов</span></a></li>
+                            <li><a href="#"><span>Кератиновый лифтинг ресниц «ЮмиЛашес»</span></a></li>
+                            <li><a href="#"><span>Четкий контур</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row margin">
+                    <div id="tabServices">
+                        <ul class="nav nav-tabs" id="myTab">
+                            <li class="active">
+                                <a href="#appointment">Инъекционная косметология</a>
+                            </li>
+                            <li>
+                                <a href="#feedback">Оставить отзыв о специалисте</a>
+                            </li>
+                            <li>
+                                <a href="#tab3">Уход за кожей</a>
+                            </li>
+                            <li>
+                                <a href="#tab4">Парикмахерские услуги</a>
+                            </li>
+                            <li>
+                                <a href="#tab5">Маникюр педикюр</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="appointment">
+                                <div class="panel-group">
+                                    <div class="panel-service">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a href="#">
+                                                    Излишняя пигментация
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in">
+                                            <div class="panel-body clearPadding">
+                                                <div class="col-sm-4">
+                                                    <ul>
+                                                        <li><a href="#">Лечение излишней пигментации</a></li>
+                                                        <li><a href="#">Химический пилинг</a></li>
+                                                        <li><a href="#">Мезотерапия</a></li>
+                                                        <li><a href="#">Мезопил</a></li>
+                                                        <li><a href="#">Дермабразия</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <ul>
+                                                        <li><a href="#">Лечение излишней пигментации</a></li>
+                                                        <li><a href="#">Химический пилинг</a></li>
+                                                        <li><a href="#">Мезотерапия</a></li>
+                                                        <li><a href="#">Мезопил</a></li>
+                                                        <li><a href="#">Дермабразия</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <ul>
+                                                        <li><a href="#">Лечение излишней пигментации</a></li>
+                                                        <li><a href="#">Химический пилинг</a></li>
+                                                        <li><a href="#">Мезотерапия</a></li>
+                                                        <li><a href="#">Мезопил</a></li>
+                                                        <li><a href="#">Дермабразия</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
 
 
-								</div>
-							</div>
-							<div class="tab-pane" id="feedback">
-								<div class="panel panel-service">
-									<div class="panel-heading">
-										<h4 class="panel-title">
-											<a href="#">
-												Коррекция носа
-											</a>
-										</h4>
-									</div>
-									<div id="collapseTwo" class="panel-collapse collapse in">
-										<div class="panel-body clearPadding">
-											<div class="col-sm-4">
-												<ul>
-													<li><a href="#">Лечение излишней пигментации</a></li>
-													<li><a href="#">Химический пилинг</a></li>
-													<li><a href="#">Мезотерапия</a></li>
-													<li><a href="#">Мезопил</a></li>
-													<li><a href="#">Дермабразия</a></li>
-												</ul>
-											</div>
-											<div class="col-sm-4">
-												<ul>
-													<li><a href="#">Лечение излишней пигментации</a></li>
-													<li><a href="#">Химический пилинг</a></li>
-													<li><a href="#">Мезотерапия</a></li>
-													<li><a href="#">Мезопил</a></li>
-													<li><a href="#">Дермабразия</a></li>
-												</ul>
-											</div>
-											<div class="col-sm-4">
-												<ul>
-													<li><a href="#">Лечение излишней пигментации</a></li>
-													<li><a href="#">Химический пилинг</a></li>
-													<li><a href="#">Мезотерапия</a></li>
-													<li><a href="#">Мезопил</a></li>
-													<li><a href="#">Дермабразия</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-pane" id="tab3">
-								<div class="panel panel-service">
-									<div class="panel-heading">
-										<h4 class="panel-title">
-											<a href="#">
-												Лазерная эстетическая косметология
-											</a>
-										</h4>
-									</div>
-									<div id="collapseThree" class="panel-collapse collapse in">
-										<div class="panel-body clearPadding">
-											<div class="col-sm-4">
-												<ul>
-													<li><a href="#">Лечение излишней пигментации</a></li>
-													<li><a href="#">Химический пилинг</a></li>
-													<li><a href="#">Мезотерапия</a></li>
-													<li><a href="#">Мезопил</a></li>
-													<li><a href="#">Дермабразия</a></li>
-												</ul>
-											</div>
-											<div class="col-sm-4">
-												<ul>
-													<li><a href="#">Лечение излишней пигментации</a></li>
-													<li><a href="#">Химический пилинг</a></li>
-													<li><a href="#">Мезотерапия</a></li>
-													<li><a href="#">Мезопил</a></li>
-													<li><a href="#">Дермабразия</a></li>
-												</ul>
-											</div>
-											<div class="col-sm-4">
-												<ul>
-													<li><a href="#">Лечение излишней пигментации</a></li>
-													<li><a href="#">Химический пилинг</a></li>
-													<li><a href="#">Мезотерапия</a></li>
-													<li><a href="#">Мезопил</a></li>
-													<li><a href="#">Дермабразия</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-pane" id="tab4">
-								<div class="panel panel-service">
-									<div class="panel-heading">
-										<h4 class="panel-title">
-											<a href="#">
-												Лазерная эстетическая косметология
-											</a>
-										</h4>
-									</div>
-									<div id="collapseFour" class="panel-collapse collapse in">
-										<div class="panel-body clearPadding">
-											<div class="col-sm-4">
-												<ul>
-													<li><a href="#">Лечение излишней пигментации</a></li>
-													<li><a href="#">Химический пилинг</a></li>
-													<li><a href="#">Мезотерапия</a></li>
-													<li><a href="#">Мезопил</a></li>
-													<li><a href="#">Дермабразия</a></li>
-												</ul>
-											</div>
-											<div class="col-sm-4">
-												<ul>
-													<li><a href="#">Лечение излишней пигментации</a></li>
-													<li><a href="#">Химический пилинг</a></li>
-													<li><a href="#">Мезотерапия</a></li>
-													<li><a href="#">Мезопил</a></li>
-													<li><a href="#">Дермабразия</a></li>
-												</ul>
-											</div>
-											<div class="col-sm-4">
-												<ul>
-													<li><a href="#">Лечение излишней пигментации</a></li>
-													<li><a href="#">Химический пилинг</a></li>
-													<li><a href="#">Мезотерапия</a></li>
-													<li><a href="#">Мезопил</a></li>
-													<li><a href="#">Дермабразия</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-pane" id="tab5">
-								vvvvvvvvvvvvvvvvvvvv
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row margin">
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="feedback">
+                                <div class="panel panel-service">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#">
+                                                Коррекция носа
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse in">
+                                        <div class="panel-body clearPadding">
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li><a href="#">Лечение излишней пигментации</a></li>
+                                                    <li><a href="#">Химический пилинг</a></li>
+                                                    <li><a href="#">Мезотерапия</a></li>
+                                                    <li><a href="#">Мезопил</a></li>
+                                                    <li><a href="#">Дермабразия</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li><a href="#">Лечение излишней пигментации</a></li>
+                                                    <li><a href="#">Химический пилинг</a></li>
+                                                    <li><a href="#">Мезотерапия</a></li>
+                                                    <li><a href="#">Мезопил</a></li>
+                                                    <li><a href="#">Дермабразия</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li><a href="#">Лечение излишней пигментации</a></li>
+                                                    <li><a href="#">Химический пилинг</a></li>
+                                                    <li><a href="#">Мезотерапия</a></li>
+                                                    <li><a href="#">Мезопил</a></li>
+                                                    <li><a href="#">Дермабразия</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab3">
+                                <div class="panel panel-service">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#">
+                                                Лазерная эстетическая косметология
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse in">
+                                        <div class="panel-body clearPadding">
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li><a href="#">Лечение излишней пигментации</a></li>
+                                                    <li><a href="#">Химический пилинг</a></li>
+                                                    <li><a href="#">Мезотерапия</a></li>
+                                                    <li><a href="#">Мезопил</a></li>
+                                                    <li><a href="#">Дермабразия</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li><a href="#">Лечение излишней пигментации</a></li>
+                                                    <li><a href="#">Химический пилинг</a></li>
+                                                    <li><a href="#">Мезотерапия</a></li>
+                                                    <li><a href="#">Мезопил</a></li>
+                                                    <li><a href="#">Дермабразия</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li><a href="#">Лечение излишней пигментации</a></li>
+                                                    <li><a href="#">Химический пилинг</a></li>
+                                                    <li><a href="#">Мезотерапия</a></li>
+                                                    <li><a href="#">Мезопил</a></li>
+                                                    <li><a href="#">Дермабразия</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab4">
+                                <div class="panel panel-service">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#">
+                                                Лазерная эстетическая косметология
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFour" class="panel-collapse collapse in">
+                                        <div class="panel-body clearPadding">
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li><a href="#">Лечение излишней пигментации</a></li>
+                                                    <li><a href="#">Химический пилинг</a></li>
+                                                    <li><a href="#">Мезотерапия</a></li>
+                                                    <li><a href="#">Мезопил</a></li>
+                                                    <li><a href="#">Дермабразия</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li><a href="#">Лечение излишней пигментации</a></li>
+                                                    <li><a href="#">Химический пилинг</a></li>
+                                                    <li><a href="#">Мезотерапия</a></li>
+                                                    <li><a href="#">Мезопил</a></li>
+                                                    <li><a href="#">Дермабразия</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li><a href="#">Лечение излишней пигментации</a></li>
+                                                    <li><a href="#">Химический пилинг</a></li>
+                                                    <li><a href="#">Мезотерапия</a></li>
+                                                    <li><a href="#">Мезопил</a></li>
+                                                    <li><a href="#">Дермабразия</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab5">
+                                vvvvvvvvvvvvvvvvvvvv
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin">
 
-				</div>
+                </div>
                 <div class="row">
                     <div class="col-sm-12 clearPadding">
-						<h2>О нас</h2>
-						<div class="text">
-							<p>Удобное местоположение и парковка делают центр «Онегин» еще более гостеприимным.<br>
-								Мы с уважением и вниманием отнесемся к вашим возможностям и потребностям и сумеем подобрать для каждого из Вас соответствующие процедуры!<br>
-								На нашем сайте вы найдете подробную информацию обо всех видах процедур, которые предлагает центр. Мы знаем, что наши пациенты достойны максимально комфортного, и безболезненного лечения. Мы  делаем для этого все от нас зависящее. Мы стремимся к тому, чтобы каждый наш клиент проходил через эффективные процедуры, в дружелюбной и расслабляющей обстановке, не прерывая своего насыщенного ритма жизни.</p>
+                        <h2>О нас</h2>
+                        <div class="text">
+                            <p>Удобное местоположение и парковка делают центр «Онегин» еще более гостеприимным.<br>
+                                Мы с уважением и вниманием отнесемся к вашим возможностям и потребностям и сумеем подобрать для каждого из Вас соответствующие процедуры!<br>
+                                На нашем сайте вы найдете подробную информацию обо всех видах процедур, которые предлагает центр. Мы знаем, что наши пациенты достойны максимально комфортного, и безболезненного лечения. Мы  делаем для этого все от нас зависящее. Мы стремимся к тому, чтобы каждый наш клиент проходил через эффективные процедуры, в дружелюбной и расслабляющей обстановке, не прерывая своего насыщенного ритма жизни.</p>
 
-							<p>Наши специалисты во главе с врачом-дерматокосметологом  Инной Ивановной Сугак предлагают вам самые эффективные методы лечения косметологических проблем в Красноярске.<br>
-								Мы используем щадящие, не требующие хирургического вмешательства процедуры.<br>
-								Медико-косметологический центр «Онегин» – это клиника комплексной профессиональной косметологии. Уже на первой консультации вы получите подробную и объективную оценку всех ваших проблем, предложения по их решению и программу лечения.</p>
+                            <p>Наши специалисты во главе с врачом-дерматокосметологом  Инной Ивановной Сугак предлагают вам самые эффективные методы лечения косметологических проблем в Красноярске.<br>
+                                Мы используем щадящие, не требующие хирургического вмешательства процедуры.<br>
+                                Медико-косметологический центр «Онегин» – это клиника комплексной профессиональной косметологии. Уже на первой консультации вы получите подробную и объективную оценку всех ваших проблем, предложения по их решению и программу лечения.</p>
 
-							<p>Медико-косметологический центр «Онегин» находится в состоянии непрерывного развития. Наши врачи являются постоянными участниками и экспертами конференций, презентаций, семинаров, посвященных использованию самых передовых технологий и препаратов.</p>
-						</div>
-					</div>
+                            <p>Медико-косметологический центр «Онегин» находится в состоянии непрерывного развития. Наши врачи являются постоянными участниками и экспертами конференций, презентаций, семинаров, посвященных использованию самых передовых технологий и препаратов.</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -449,22 +548,21 @@
             </div>
         </div>
 
-		<script src="js/vendor/jquery-1.11.0.js"></script>
+        <script src="js/vendor/jquery-1.11.0.js"></script>
         <script src="js/vendor/jquery.easing-1.3.js"></script>
 
         <script src="js/jquery.iosslider.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
-		<script src="js/vendor/bootstrap-tab.js"></script>
+        <script src="js/vendor/bootstrap-tab.js"></script>
 
         <script type="text/javascript" src="js/jssor.core.js"></script>
         <script type="text/javascript" src="js/jssor.utils.js"></script>
         <script type="text/javascript" src="js/jssor.slider.js"></script>
-		<script type="text/javascript" src="js/responsive-nav.js"></script>
-		<script src="js/main.js"></script>
-		<script>
-			$(function() {
-				$('#myTab a:first').tab('show');
-			})
-		</script>
+        <script src="js/main.js"></script>
+        <script>
+            $(function () {
+                $('#myTab a:first').tab('show');
+            })
+        </script>
     </body>
 </html>
