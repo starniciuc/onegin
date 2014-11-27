@@ -3,6 +3,7 @@
    Author's custom styles
    ========================================================================== */
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 
 body{
     background: #f7f2e5; /* Old browsers */
@@ -21,19 +22,19 @@ h1{
     color: #000000;
     font-size: 24px;
     margin-top: 15px;
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 h2{
     color: #000000;
     font-size: 22px;
     margin-top: 15px;
-	font-weight: bold;
+    font-weight: bold;
 }
 h3{
     color: #000000;
     font-size: 18px;
     margin-top: 15px;
-	font-weight: bold;
+    font-weight: bold;
 }
 h4{
     color: #000000;
@@ -54,8 +55,8 @@ h6{
     margin-top: 15px;
 }
 #ya-site-form0  .ya-site-form__submit{
-background: none !important;
- background: url("../img/search.png") no-repeat scroll 0 center rgba(0, 0, 0, 0) !important;
+    background: none !important;
+    background: url("../img/search.png") no-repeat scroll 0 center rgba(0, 0, 0, 0) !important;
     border: 0 none !important;
     height: 25px !important;
     margin: 0 !important;
@@ -78,14 +79,14 @@ background: none !important;
 }
 #ya-site-form0 .ya-site-form__form * {
     font-size: 12px !important;
-	padding: 0;
-	position: relative;
+    padding: 0;
+    position: relative;
 }
 #ya-site-form0 .ya-site-form__wrap {
     border-collapse: collapse !important;
     table-layout: fixed !important;
     width: 100% !important;
-	border:0;
+    border:0;
 }
 #ya-site-form0 .ya-site-form__search-wrap {
     border-collapse: collapse !important;
@@ -101,8 +102,8 @@ background: none !important;
 }
 #ya-site-form0 .ya-site-form__search-input {
     padding: 0 !important;
-	border: 0 !important;
-	background: none !important;
+    border: 0 !important;
+    background: none !important;
 }
 #ya-site-form0 .ya-site-form__search-input-layout, #ya-site-form0 .ya-site-form__search-input-layout-l {
     width: 100% !important;
@@ -138,14 +139,14 @@ background: none !important;
 #ya-site-form0 .ya-site-suggest {
     margin: 0 4.85em 0 0 !important;
     position: relative !important;
-	background-color: #fff !important;
-	width: 100% !important;
+    background-color: #fff !important;
+    width: 100% !important;
 }
 html body #ya-site-form0 .ya-site-suggest-elem:link, html body #ya-site-form0 .ya-site-suggest-elem-link{
     padding-left: 10px !important;
 }
 .b-body-items{
-	text-align: left !important;
+    text-align: left !important;
 }
 #ya-site-form0 .ya-site-suggest-popup {
     position: absolute !important;
@@ -513,7 +514,7 @@ p.data span{
     background-color: #7b7c82;
     padding: 0px 8px;
     border-radius: 3px;
-
+    white-space: nowrap;
 }
 .about .news-side .news-body p.body{
     color:#47484f;
@@ -1810,12 +1811,12 @@ ul.menu {
         padding-left: 0;
         padding-right: 0;
     }
-     header .call .number h2 {
+    header .call .number h2 {
         font-size: 18px;
         height: 40px;
         line-height: 50px;
     }
-    
+
     .fotoSlider {
         margin-top: 40px!important;
         height: 190px !important;
@@ -2433,4 +2434,60 @@ h1.red{
     font-size: 24px;
     color: #b52b2b;
     text-transform: uppercase;
+}
+.tags {
+    margin-bottom: 15px;
+}
+.tags .name{
+    color: #6d6f79;
+    text-transform: uppercase;
+    font-size: 24px;
+    vertical-align: middle;
+}
+.tags .tag{
+    margin: 0 5px;
+    color: #424348;
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 3px;
+    background-color: #e8e8e8;
+    transition: all .3s ease-in-out;
+}
+.tags .tag:hover{
+    color: #FFFFFF;
+    background-color: #7b7c82;
+}
+.video-block{
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.22);
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+}
+.video-block .description{
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+    color: #000000;
+    background-color: #e8e8e8;
+    text-transform: uppercase;
+}
+
+.video-block .description .text{
+    height: 50px;
+    vertical-align: middle;
+    padding: 5px;
+}
+.video-block .video-side{
+    padding: 10px;
+    height: 300px;
+    overflow: hidden;
+}
+.call-back-mobile{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-right: 10px;
+    padding-top: 10px;
 }
