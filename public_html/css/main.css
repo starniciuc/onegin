@@ -1801,6 +1801,12 @@ ul.menu {
 .navbar-toggle .icon-bar{
     background-color: #FFFFFF;
 }
+.direct .boss, .boss.novaface{
+    min-height: 342px;
+}
+.row.foto .foto-side, .row.foto .certificat{
+    min-height: 320px;
+}
 @media screen and (max-width: 1200px) {
     header .call .number h2 span {
         padding-left: 40px;
