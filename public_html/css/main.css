@@ -2497,3 +2497,15 @@ h1.red{
     margin-right: 10px;
     padding-top: 10px;
 }
+.list-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.list-links ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.list-links ul li a{
+    display: block;
+}
