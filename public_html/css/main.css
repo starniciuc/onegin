@@ -2509,3 +2509,6 @@ h1.red{
 .list-links ul li a{
     display: block;
 }
+.social .col-xs-2{
+    width: 90px !important;
+}
