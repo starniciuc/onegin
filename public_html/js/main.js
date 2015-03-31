@@ -98,11 +98,11 @@ $(document).ready(function () {
         if ($(this).scrollTop() > 199 && $menu.hasClass("default")) {
 
             $menu.removeClass("default").addClass("fixed");
-            //$(".iosSlider").css("margin-top", '66px');
+            $("header").css("margin-bottom", '78px');
             //$(".hideMenu").css("margin-top", '56px');
         } else if ($(this).scrollTop() <= 200 && $menu.hasClass("fixed")) {
             $menu.removeClass("fixed").addClass("default");
-            //$(".iosSlider").css("margin-top", '20px');
+            $("header").css("margin-bottom", '0px');
             //$(".hideMenu").css("margin-top", '10px');
         }
     });//scroll
